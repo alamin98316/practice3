@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background: #A3A58F;
+}
+
+.main_header{
+    
+    height: 100px;
+    background-color: #4267B2;
+    
+}
+
+.leftHand{
+   
+    float:left;
+      text-align: center;
+   
+}
+
+.leftHand h1{
+    margin-top:20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 200px;
+    font-family: 'Roboto',sans-serif;
+    font-style: bold,italic;
+    font-size: 50px;
+    
+}
+
+.RightHand{
+  
+    float: left;
+   margin-top: 20px;
+   
+}
+
+.number{
+    
+      color: #fff;
+    margin-left: 400px;
+  margin-right: 40px;
+ 
+    position: absolute;
+    
+}
+
+  
+
+.pass{
+        color: #fff;
+        margin-left: 550px;
+     position: absolute;
+    width: 40px;
+    
+}
+
+.input_text{
+    margin-top: 21px;
+    margin-left: 372px;
+}
+
+.input_text input[type="text"]{
+    height: 25px;
+      border: 1px solid #000;
+}
+.input_text input[type="password"]{
+    height: 25px;
+    border: 1px solid #000;
+}
+
+.input_text #submit{
+    
+    width: 80px;
+    height: 26px;
+    border: none;
+    color: #fff;
+   font-size: 15px;
+    position: absolute;
+    margin-left: 5px;
+    background-color: cadetblue;
+}
+
+.input_text #submit:hover{
+    background: #3B5998;
+    
+}
+
+.leftcontent{
+    float: left;
+    width: 400px;
+    
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.leftcontent img{
+    
+    border: 0.5px solid #A3A58F;
+}
+
+.pragrap{
+
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: inherit;
+
+}
+
+.rightcontent{
+    float: left;
+    width: 700px;
+}
+
+.rightcontent h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rightcontent h3{
+      
+    margin-top: 20px;
+    margin-left: 207px;
+    
+}
+
+
+.account_pat{
+    margin-top: 20px;
+    margin-left: 207px;
+
+    
+}
+#polyci{
+    
+    width: 300px;
+    text-align: justify-all;
+    margin-top: 25px;
+    margin-left: 211px;
+    
+}
+
+ #button{
+     width: 180px;
+    height: 40px;
+    color: #fff;
+     text-align: center;
+    margin-left: 211px;
+    background: #6EAB59;
+     margin-top: 10px;
+    font-size: 20px;
+    font-family: inherit;
+     border: 1px solid #000;
+}
+
+#button:hover{
+    background-color: #4267B2;
+    
+}
+
+
+/* Responsive style start here*/
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    .leftHand h1{
+            font-size: 33px;
+        margin-left: 21px;
+            margin-top: 28px;
+    }
+    
+    .input_text{
+            margin-left: 90px;
+        
+    }
+    .number {
+        margin-left: 110px;
+        
+    }
+    
+    .pass{
+
+    margin-left: 299px;
+    }
+    
+    .leftcontent{
+        
+        margin-left: 154px;
+        margin-right: 0px;
+    }
+    
+    .rightcontent{
+        
+        width: 100%;
+    }
+    
+    
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+    */
+
+@media only screen and (max-width: 767px){
+    
+       .leftHand h1{
+         display: none;
+    }
+      .input_text{
+            margin-left: 60px;
+        
+    }
+     .number {
+        margin-left: 13%;
+        
+    }
+    
+    .pass{
+
+    margin-left: 49%;
+    }
+    
+    .leftcontent{
+        width: 100%;
+        margin-left: 6%;
+    }
+    
+    .rightcontent{
+        
+        width: 100%;
+        margin-left: 1%;
+    }
+    
+    .pragrap{
+        
+        text-align: left;
+    }
+    
+    .account_pat{
+
+    margin-left: 18%;
+    
+    }
+    
+    #polyci{
+        
+        width: 100%;
+        margin-left: 14%;
+        
+    }
+    
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+   */
+
+@media only screen and (min-width: 480px){
+
+
+
+
+}
+
